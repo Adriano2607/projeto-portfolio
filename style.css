@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #09182C;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+header>img {
+    height: 3vh;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+main>a>img {
+    position: fixed;
+    bottom: 2%;
+    right: 5%;
+    height: 5vh;
+}
+
+
+#container-primeiratela {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/dots-6297146_1920.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+#btnTrabalhos,
+#btnContato {
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 12px;
+    border-radius: 100px;
+    background-color: #FF6A00;
+    color: white;
+    width: 100px;
+    margin: 8px;
+    text-align: center;
+}
+
+
+
+#btnTrabalhos:hover,
+#btnContato:hover {
+    transform: scale(1.05);
+}
+
+.format p {
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 35px;
+
+}
+
+
+.format h1 {
+    color: #FF6A00;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+
+#container-sobremim {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    border-bottom: 1px solid #afa4a4;
+}
+
+#container-projetos {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #afa4a4;
+}
+
+
+
+
+#conteudo-jogo {
+    border: 1px solid transparent;
+    box-shadow: 3px -3px 9px 9px #DED8D8, 5px 5px 10px 1px #000;
+    border-radius: 15px;
+    background-image: url(img/html\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: center 10%;
+    margin: 0;
+
+}
+
+
+#quadrado-java {
+    border: 1px solid transparent;
+    box-shadow: 3px -3px 9px 9px #DED8D8, 5px 5px 10px 1px #000;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: center 10%;
+    background-image: url(img/java.png);
+}
+
+.tamanho{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+
+#conteudo-jogo p,
+#quadrado-java p {
+    color: black;
+    font-size: 1em;
+    border-top: 1px solid #FF6A00;
+    padding: 25px 0 0 10px;
+    margin-top: 70%;
+}
+
+.paiquadrado>a :hover {
+    transform: scale(1.01);
+}
+
+
+.paiquadrado {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+
+#container-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #afa4a4;
+}
+
+
+#frontend {
+    border: 1px solid transparent;
+    box-shadow: 3px -3px 9px 9px #DED8D8, 5px 5px 10px 1px #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+
+#frontend>h2 {
+    text-align: center;
+}
+
+#frontend>ul {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #FF6A00;
+   
+}
+
+
+#container-formulario {
+ 
+    padding: 35px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #09182C;
+}
+
+#container-formulario form {
+    width: 40vh;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+
+.espacoLabel {
+    background-color: black;
+    height: 5vh;
+    padding: 3px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form textarea {
+    background-color: black;
+    border: none;
+    margin: 0 0 10px 0;
+}
+
+
+
+#conteudocontato {
+    color: white;
+   
+}
+
+#conteudocontato ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudocontato div {
+    display: flex;
+    align-items: center;
+}
+
+#conteudocontato img {
+    height: 3vh;
+    padding-right: 2%;
+}
+
+#conteudocontato button,
+form button {
+    border: none;
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    border: 1px solid #FF6A00;
+    border-radius: 10px;
+    width: 20vh;
+}
+
+#conteudocontato h4 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+
+
+#container-instituicoes {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+    padding: 30px;
+}
+
+#conteudo-instituicoes {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#formaceos {
+    border: 1px solid transparent;
+    box-shadow: 3px -3px 9px 9px #DED8D8, 5px 5px 10px 1px #000;
+
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-size: 1.3em;
+    border-top: 1px solid white;
+    padding: 1px;
+
+}
