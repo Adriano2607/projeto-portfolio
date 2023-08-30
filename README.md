@@ -1,1 +1,1 @@
-# projeto-portfolio
+Bem-vindo ao meu projeto de portfólio! Este repositório exibe uma coleção do meu trabalho, habilidades e conquistas. Se você é um potencial empregador, colaborador ou apenas tem curiosidade sobre o que faço, espero que encontre este portfólio informativo e envolvente.
